@@ -36,10 +36,6 @@ Start the api service with the following command:
 
     $ make run
 
-Run the contract tests to make sure your API is responding accordingly:
-
-    $ make contract-tests
-
 Run all tests:
 
     $ make test
