@@ -1,11 +1,11 @@
 install:
-	echo "Install dependencies"
+	docker-compose build
 
 run:
-	echo "Start API"
+	docker-compose up --build
 
 contract-test:
-	echo "Run contract tests"
+	docker-compose run backend make contract-test
 
 test:
-	echo "Running all tests"
+	docker-compose run backend make test
